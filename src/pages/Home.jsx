@@ -11,6 +11,7 @@ import AutumnCollection from '../components/AutumnCollection'
 import Banners2 from '../components/Banners2'
 import Instagram from '../components/Instagram'
 import Newsletter from '../components/NewsLetter'
+import Footer from '../components/Footer'
 
 export default function Home() {
   const [hamIsOpen, setHamIsOpen] = useState(false)
@@ -27,6 +28,7 @@ export default function Home() {
       <Banners2 />
       <Instagram />
       <Newsletter />
+      <Footer />
     </div>
   )
 }

@@ -9,7 +9,6 @@ export default function NavMenuHome() {
       <li className={style.linksItem}>Bracelets</li>
       <li className={style.linksItem}>Earrings</li>
       <li className={style.linksItem}>Charms and Dangles</li>
-      <li className={style.linksItem}>Watches</li>
     </ul>
   )
 }
