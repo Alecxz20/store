@@ -1,0 +1,51 @@
+@import url(../colors.css);
+
+.container {
+  background-color: var(--light-blue);
+  padding: 1rem;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 3rem;
+}
+
+.title {
+  margin-top: 4rem;
+  font-weight: 400;
+  font-size: 32px;
+}
+
+.text {
+  color: var(--text);
+}
+
+.form {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 4rem;
+  padding-top: 1rem;
+}
+
+.input {
+  height: 44px;
+  width: 40%;
+  background-color: transparent;
+  border: 2px solid var(--main);
+  padding: 0 1rem;
+  font-size: 18px;
+}
+
+.btn {
+  background-color: var(--main);
+  color: #fafafa;
+  height: 44px;
+  border: none;
+  padding: 0 2rem;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background-color: black;
+}

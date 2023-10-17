@@ -1,0 +1,15 @@
+@import url('../colors.css');
+
+.trendyCollection {
+  text-align: center;
+  padding: 1rem 1rem;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.title {
+  margin: 0 0 1rem;
+  font-weight: 400;
+  font-size: 28px;
+}

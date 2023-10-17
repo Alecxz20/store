@@ -1,0 +1,73 @@
+@import url(../colors.css);
+
+.banner {
+  height: 274px;
+  background-color: aqua;
+  position: relative;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.tag {
+  position: absolute;
+  top: 30px;
+  left: 1rem;
+  z-index: 6;
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.dark {
+  color: #fafafa;
+}
+
+.title {
+  position: absolute;
+  top: 58px;
+  left: 1rem;
+  z-index: 6;
+  font-size: 26px;
+  width: 50%;
+}
+
+.cta {
+  font-family: 'Poppins', sans-serif;
+  position: absolute;
+  top: 180px;
+  left: 1rem;
+  z-index: 6;
+  cursor: pointer;
+  padding: 0.2rem;
+  border-bottom: 2px solid;
+  border-color: inherit;
+}
+
+.cta:hover {
+  border-color: transparent;
+}
+
+.cta::before {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(to right, black, white);
+  z-index: 1;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.5s ease-in-out;
+}
+
+.cta:hover::before {
+  transform: scaleX(1);
+}

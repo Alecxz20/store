@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700&display=swap');
+
+/* font-family: 'Poppins', sans-serif; */
+/* font-family: 'Nanum Myeongjo', serif; */
+
+:root {
+  --main: #222;
+  --background: #fefefe;
+  --light-gray: #e5e5e5;
+  --light-blue: #F4F5F4;
+  --text: #555555;
+  --pink: #FBEBFA;
+}
+

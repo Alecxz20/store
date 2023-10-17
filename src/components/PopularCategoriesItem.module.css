@@ -1,0 +1,13 @@
+.card {
+  cursor: pointer;
+}
+
+.image {
+  border-radius: 50%;
+  width: 140px;
+}
+
+.productName {
+  font-weight: 400;
+  font-size: 12px;
+}

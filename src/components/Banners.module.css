@@ -1,0 +1,9 @@
+.bannerContainer {
+    display: grid;
+    padding: 1rem;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(308px, 1fr));
+    height: 306px;
+    overflow: hidden;
+    position: relative;
+}

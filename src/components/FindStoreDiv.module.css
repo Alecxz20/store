@@ -1,0 +1,35 @@
+@import url('../colors.css');
+
+.container {
+  background-color: var(--pink);
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+  padding: 0 1rem;
+  text-align: center;
+}
+
+.icon {
+  height: 28px;
+  width: 28px;
+}
+
+.text {
+    font-size: 22px;
+}
+
+.btn {
+    background-color: transparent;
+    border: 2px solid var(--main);
+    padding: .4rem 1.4rem;
+    font-weight: bold;
+    transition: all .5s;
+}
+
+.btn:hover {
+    color: #fafafa;
+    background-color: var(--main);
+}

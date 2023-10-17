@@ -1,0 +1,26 @@
+@import url('../colors.css');
+
+.instagramSection {
+  padding: 0 1rem;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 3rem;
+}
+
+.instagramTitle {
+  color: var(--main);
+  font-weight: 400;
+  font-size: 32px;
+}
+
+.instagramUsername {
+  color: var(--text);
+  margin-bottom: 1rem;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+  gap: 20px;
+  overflow: hidden;
+}
