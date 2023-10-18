@@ -56,6 +56,10 @@
   border-color: inherit;
 }
 
+.link {
+  color: inherit;
+}
+
 .cta:hover {
   border-color: transparent;
 }

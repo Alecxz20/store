@@ -1,0 +1,9 @@
+.shop {
+  width: 100vw;
+  max-width: 100%;
+  transition: all 0.5s;
+}
+
+.dark {
+  background-color: rgba(103, 102, 103, 0.08);
+}

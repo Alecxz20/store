@@ -31,3 +31,7 @@ html {
 .red {
   background-color: #fe564f;
 }
+
+.selected {
+  border: 2px solid var(--main);
+}

@@ -1,0 +1,10 @@
+import style from './ShopBg.module.css'
+
+export default function ShopBg() {
+  return (
+    <div className={style.shopBg}>
+        <h2 className={style.title}>Shop</h2>
+        <p className={style.text}>Home &gt; Shop</p>
+    </div>
+  )
+}

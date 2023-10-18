@@ -1,0 +1,27 @@
+@import url('../colors.css');
+
+.shop {
+  padding: 1rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+.shopContainer {
+  max-width: 1275px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 4rem;
+}
+
+.categories {
+  width: 300px;
+}
+.list {
+  flex: 1;
+}
+
+@media (max-width: 766px) {
+  .categories {
+    display: none;
+  }
+}

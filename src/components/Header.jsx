@@ -20,7 +20,7 @@ export default function Header({ hamIsOpen, setHamIsOpen }) {
           className={style.hamburgerIcon}
           onClick={handleOpenClick}
         />
-        <Link className={style.title}>
+        <Link to={"/store/"} className={style.title}>
           <h2>Aureo & Co</h2>
         </Link>
         <Link className={style.cart}>

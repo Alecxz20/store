@@ -1,0 +1,19 @@
+.btnContainer {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.icon {
+  height: 24px;
+  width: 24px;
+  cursor: pointer;
+}
+
+.page {
+  font-weight: 400;
+  padding: 0.1rem 1rem;
+  cursor: pointer;
+}

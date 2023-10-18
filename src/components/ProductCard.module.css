@@ -1,8 +1,12 @@
+@import url('../colors.css');
+
 .card {
   max-width: 260px;
   position: relative;
   cursor: pointer;
   margin: 0 auto;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
 }
 
 .image {
@@ -10,7 +14,7 @@
 }
 
 .imageHover {
-  width: 260px;
+  width: 100%;
   position: absolute;
   top: 0;
   left: 0;
