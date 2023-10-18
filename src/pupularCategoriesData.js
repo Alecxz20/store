@@ -6,12 +6,12 @@ import charm from "./assets/Echoes-Necklace-Extension-Piece-1.jpg"
 import gift from "./assets/Sparkling-Crown-Charm-Bracelet-1.jpg"
 
 const data = [
-    {name: "NECKLACES", image: necklace},
-    {name: "RINGS", image: ring},
-    {name: "BRACELETS", image: bracelet},
-    {name: "EARRINGS", image: earring},
-    {name: "CHARMS", image: charm},
-    {name: "GIFT IDEAS", image: gift},
+    {name: "NECKLACES", image: necklace, route: "necklaces"},
+    {name: "RINGS", image: ring, route: "rings"},
+    {name: "BRACELETS", image: bracelet, route: "bracelets"},
+    {name: "EARRINGS", image: earring, route: "earrings"},
+    {name: "CHARMS", image: charm, route: "charms"},
+    {name: "GIFT IDEAS", image: gift, route: ""},
 ]
 
 export default data

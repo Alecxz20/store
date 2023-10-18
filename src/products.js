@@ -173,7 +173,7 @@ const products = [
   },
   {
     name: 'Echoes Necklace Extension Piece',
-    category: 'CHARM & DANGLES',
+    category: 'CHARMS',
     img1: echoesNecklaceExtensionPiece1,
     img2: echoesNecklaceExtensionPiece2,
     img3: echoesNecklaceExtensionPiece3,
@@ -187,7 +187,7 @@ const products = [
   },
   {
     name: 'True Stripes & Gold Charm',
-    category: 'CHARM & DANGLES',
+    category: 'CHARMS',
     img1: trueStripesGoldCharm1,
     img2: trueStripesGoldCharm2,
     img3: trueStripesGoldCharm3,

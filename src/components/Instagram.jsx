@@ -23,7 +23,7 @@ export default function Instagram() {
       <p className={style.instagramUsername}>@aureo&co</p>
       <div className={style.cards}>
         {images.map((instaImg, index) => (
-          <InstagramCard key={index} instaImg={instaImg} />
+          <InstagramCard key={index} index={index} instaImg={instaImg} />
         ))}
       </div>
     </section>

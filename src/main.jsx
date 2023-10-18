@@ -8,19 +8,24 @@ import Error from './components/Error'
 
 const router = createBrowserRouter([
   {
-    path: "/store",
+    path: '/store',
     element: <Home />,
-    errorElement: <Error />
+    errorElement: <Error />,
   },
   {
-    path: "/store/shop",
+    path: '/store/shop',
     element: <Shop />,
-    errorElement: <Error />
+    errorElement: <Error />,
+  },
+  {
+    path: '/store/shop/:category',
+    element: <Shop />,
+    errorElement: <Error />,
   },
 ])
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <RouterProvider router={router} />
-  </React.StrictMode>,
+  </React.StrictMode>
 )

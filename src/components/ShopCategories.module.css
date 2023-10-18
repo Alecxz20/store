@@ -2,6 +2,7 @@
 
 .categories {
   font-family: 'Poppins', sans-serif;
+  color: var(--main);
 }
 
 .categoriesTitle {
@@ -17,4 +18,9 @@
 .linksItem {
   padding: 0.5rem 0;
   cursor: pointer;
+}
+
+.a {
+  color: inherit;
+  text-decoration: none;
 }

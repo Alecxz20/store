@@ -3,6 +3,7 @@ import Carousel from 'react-multi-carousel'
 import 'react-multi-carousel/lib/styles.css'
 import PopularCategoriesItem from './PopularCategoriesItem'
 import data from "../pupularCategoriesData"
+import { Link } from 'react-router-dom'
 
 export default function PopularCategories() {
   const responsive = {
@@ -28,7 +29,7 @@ export default function PopularCategories() {
       <h2 className={style.title}>Popular Categories</h2>
       <Carousel responsive={responsive}>
         {data.map((category, index) => (
-          <PopularCategoriesItem key={index} category={category} />
+          <Link to={`/store/shop/${category.route}`} className={style.a} key={index}><PopularCategoriesItem category={category} /></Link>
         ))}
       </Carousel>
     </section>
