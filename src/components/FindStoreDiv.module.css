@@ -1,5 +1,3 @@
-@import url('../colors.css');
-
 .container {
   background-color: var(--pink);
   height: 90px;

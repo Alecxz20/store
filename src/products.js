@@ -3,6 +3,7 @@ import birdOfParadisePendant2 from './assets/Birds-of-Paradise-Pendant-2.jpg'
 import birdOfParadisePendant3 from './assets/Birds-of-Paradise-Pendant-3.jpg'
 import crossOfLightPendant1 from "./assets/Cross-of-Light-Pendant-1.jpg"
 import crossOfLightPendant2 from "./assets/Cross-of-Light-Pendant-2.jpg"
+import crossOfLightPendant3 from "./assets/Cross-of-Light-Pendant-3.jpg"
 import circleOfChainNecklace1 from "./assets/Circle-of-Chain-Necklace-1.jpg"
 import circleOfChainNecklace2 from "./assets/Circle-of-Chain-Necklace-2.jpg"
 import circleOfChainNecklace3 from "./assets/Circle-of-Chain-Necklace-3.jpg"
@@ -80,7 +81,7 @@ const products = [
     category: 'NECKLACES',
     img1: crossOfLightPendant1,
     img2: crossOfLightPendant2,
-    img3: crossOfLightPendant1,
+    img3: crossOfLightPendant3,
     price: "$79.00",
     crossOutPrice: false,
     availability: "In stock",

@@ -1,9 +1,11 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import style from './ProductImages.module.css'
 
 export default function ProductImages({ thisProduct }) {
   const { img1, img2, img3 } = thisProduct
   const [mainImg, setMainImg] = useState(img1)
+  useEffect(() => setMainImg(thisProduct.img1), [thisProduct])
+
   return (
     <div className={style.container}>
       <div className={style.imagesContainer}>
