@@ -1,0 +1,15 @@
+.fieldset {
+  padding: 2rem;
+  border-radius: 4px;
+  border-color: var(--light-gray);
+}
+
+.legend {
+  text-align: center;
+  font-weight: 500;
+  padding: 0 1rem;
+}
+
+.img {
+    width: 100%;
+}

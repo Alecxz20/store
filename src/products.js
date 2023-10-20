@@ -61,6 +61,7 @@ import luxuryRosePendragonRing3 from "./assets/Luxury-Rose-Pendragon-Ring-3.jpg"
 const products = [
   {
     name: 'Birds of Paradise Pendant',
+    url: 'birds-of-paradise-pendant',
     category: 'NECKLACES',
     img1: birdOfParadisePendant1,
     img2: birdOfParadisePendant2,
@@ -75,6 +76,7 @@ const products = [
   },
   {
     name: 'Cross of Light Pendant',
+    url: 'cross-of-light-pendant',
     category: 'NECKLACES',
     img1: crossOfLightPendant1,
     img2: crossOfLightPendant2,
@@ -89,6 +91,7 @@ const products = [
   },
   {
     name: 'Circle of Chain Necklace',
+    url: 'circle-of-chain-necklace',
     category: 'NECKLACES',
     img1: circleOfChainNecklace1,
     img2: circleOfChainNecklace2,
@@ -103,6 +106,7 @@ const products = [
   },
   {
     name: 'Modern Lovepods Pendant',
+    url: 'modern-lovepods-pendant',
     category: 'NECKLACES',
     img1: modernLovepodsPendant1,
     img2: modernLovepodsPendant2,
@@ -117,6 +121,7 @@ const products = [
   },
   {
     name: 'Cross Stripes & Stone Bracelet',
+    url: 'cross-stripes-&-stone-bracelet',
     category: 'BRACELETS',
     img1: crossStripesStoneBracelet1,
     img2: crossStripesStoneBracelet2,
@@ -131,6 +136,7 @@ const products = [
   },
   {
     name: 'Echoes Swing word Bracelet',
+    url: 'echoes-swing-word-bracelet',
     category: 'BRACELETS',
     img1: echoesSwingWordBracelet1,
     img2: echoesSwingWordBracelet2,
@@ -145,6 +151,7 @@ const products = [
   },
   {
     name: 'Sparkling Crown Charm Bracelet',
+    url: 'sparkling-crown-charm-bracelet',
     category: 'BRACELETS',
     img1: sparklingCrownCharmBracelet1,
     img2: sparklingCrownCharmBracelet2,
@@ -159,6 +166,7 @@ const products = [
   },
   {
     name: 'Classic Plain Stone Bracelet',
+    url: 'classic-plain-stone-bracelet',
     category: 'BRACELETS',
     img1: classicPlainStoneBracelet1,
     img2: classicPlainStoneBracelet2,
@@ -173,6 +181,7 @@ const products = [
   },
   {
     name: 'Echoes Necklace Extension Piece',
+    url: 'echoes-necklace-extension-piece',
     category: 'CHARMS',
     img1: echoesNecklaceExtensionPiece1,
     img2: echoesNecklaceExtensionPiece2,
@@ -187,6 +196,7 @@ const products = [
   },
   {
     name: 'True Stripes & Gold Charm',
+    url: 'true-stripes-&-gold-charm',
     category: 'CHARMS',
     img1: trueStripesGoldCharm1,
     img2: trueStripesGoldCharm2,
@@ -201,6 +211,7 @@ const products = [
   },
   {
     name: 'Circle of Light Heart Earrings',
+    url: 'circle-of-light-heart-earrings',
     category: 'EARRINGS',
     img1: circleOfLightHeartEarrings1,
     img2: circleOfLightHeartEarrings2,
@@ -215,6 +226,7 @@ const products = [
   },
   {
     name: 'Blue Stripes & Stone Earrings',
+    url: 'blue-stripes-&-stone-earrings',
     category: 'EARRINGS',
     img1: blueStripesStoneEarrings1,
     img2: blueStripesStoneEarrings2,
@@ -229,6 +241,7 @@ const products = [
   },
   {
     name: 'Sterling Silver Dangle Earrings',
+    url: 'sterling-silver-dangle-earrings',
     category: 'EARRINGS',
     img1: sterlingSilverDanglesEarrings1,
     img2: sterlingSilverDanglesEarrings2,
@@ -243,6 +256,7 @@ const products = [
   },
   {
     name: 'Pandora Flower Stem Earrings',
+    url: 'pandora-flower-stem-earrings',
     category: 'EARRINGS',
     img1: pandoraFlowerStemEarrings1,
     img2: pandoraFlowerStemEarrings2,
@@ -257,6 +271,7 @@ const products = [
   },
   {
     name: 'Kalvesna Diamond Twig Ring',
+    url: 'kalvesna-diamond-twig-ring',
     category: 'RINGS',
     img1: kalvesnaDiamondTwigRing1,
     img2: kalvesnaDiamondTwigRing2,
@@ -271,6 +286,7 @@ const products = [
   },
   {
     name: 'Four-Leaf Clover Rings',
+    url: 'four-leaf-clover-rings',
     category: 'RINGS',
     img1: fourLeafCloverRings1,
     img2: fourLeafCloverRings2,
@@ -285,6 +301,7 @@ const products = [
   },
   {
     name: 'Love Both Engagement Ring',
+    url: 'love-both-engagement-ring',
     category: 'RINGS',
     img1: loveBothEngagementRing1,
     img2: loveBothEngagementRing2,
@@ -299,6 +316,7 @@ const products = [
   },
   {
     name: 'Reflections Gold Rings',
+    url: 'reflections-gold-rings',
     category: 'RINGS',
     img1: reflectionsGoldRings1,
     img2: reflectionsGoldRings2,
@@ -313,6 +331,7 @@ const products = [
   },
   {
     name: 'Blue Diamond Swing Ring',
+    url: 'blue-diamond-swing-ring',
     category: 'RINGS',
     img1: blueDiamondSwingRing1,
     img2: blueDiamondSwingRing2,
@@ -327,6 +346,7 @@ const products = [
   },
   {
     name: 'Luxury Rose Pendragon Ring',
+    url: 'luxury-rose-pendragon-ring',
     category: 'RINGS',
     img1: luxuryRosePendragonRing1,
     img2: luxuryRosePendragonRing2,

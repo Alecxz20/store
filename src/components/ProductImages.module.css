@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  gap: 1rem;
+  position: relative;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.imagesContainer {
+  width: 100%;
+  position: sticky;
+  top: 1rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.thumbnails {
+  width: 20%;
+}
+
+.mainImg {
+  width: 80%;
+}
+
+.thumbnail {
+  width: 100%;
+  margin-bottom: 0.5rem;
+}
+
+.selected {
+  border: 1px solid black;
+}

@@ -1,0 +1,10 @@
+.dark {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.product {
+  width: 100vw;
+  max-width: 100%;
+  transition: all 0.5s;
+  overflow-y: hidden;
+}

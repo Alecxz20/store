@@ -5,6 +5,7 @@ import Shop from './pages/Shop'
 import './index.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Error from './components/Error'
+import Product from './pages/Product'
 
 const router = createBrowserRouter([
   {
@@ -22,6 +23,11 @@ const router = createBrowserRouter([
     element: <Shop />,
     errorElement: <Error />,
   },
+  {
+    path: "/store/product/:productName",
+    element: <Product />,
+    errorElement: <Error />
+  }
 ])
 
 ReactDOM.createRoot(document.getElementById('root')).render(

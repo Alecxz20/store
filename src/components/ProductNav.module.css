@@ -1,0 +1,14 @@
+.route {
+  font-size: 16px;
+  color: gray;
+}
+
+.a {
+  text-decoration: none;
+  cursor: pointer;
+  color: gray;
+}
+
+.productName {
+  color: var(--main);
+}

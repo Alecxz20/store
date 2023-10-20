@@ -27,6 +27,11 @@
   opacity: 1;
 }
 
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
 .productName {
   font-size: 14px;
 }

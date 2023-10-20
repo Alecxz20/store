@@ -1,0 +1,23 @@
+@import url('../colors.css');
+
+.currentProduct {
+  font-family: 'Poppins', sans-serif;
+  padding: 1rem;
+  color: var(--main);
+  width: 100%;
+}
+
+.inHalf {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 2rem;
+  gap: 1rem;
+  width: 100%;
+}
+
+@media (max-width: 980px) {
+  .inHalf {
+    display: flex;
+    flex-direction: column;
+  }
+}
