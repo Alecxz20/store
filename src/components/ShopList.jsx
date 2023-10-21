@@ -44,11 +44,13 @@ export default function ShopList({ category }) {
   function onClickNext() {
     setShowProducts(secondPage)
     setPage(2)
+    window.scrollTo(0, 0)
   }
 
   function onClickPrev() {
     setShowProducts(firstPage)
     setPage(1)
+    window.scrollTo(0, 0)
   }
 
   return (

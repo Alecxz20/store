@@ -14,7 +14,7 @@ export default function ProductCard({ trendy }) {
   }
 
   return (
-    <Link to={`/store/product/${trendy.url}`} className={style.link}>
+    <Link onClick= {() => window.scrollTo(0, 0)} to={`/store/product/${trendy.url}`} className={style.link}>
       <div className={style.card}>
         <figure>
           <img className={style.image} src={img1} alt={`${name} image`} />

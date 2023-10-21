@@ -53,7 +53,7 @@ export default function Slider() {
       <section className={style.info}>
         <h2 className={style.infoTitle}>{title}</h2>
         <p className={style.infoText}>{text}</p>
-        <Link to={'/store/shop'}>
+        <Link onClick={() => window.scrollTo(0, 0)} to={'/store/shop'}>
           <button className={`${style.infoButton}`}>Shop Now</button>
         </Link>
       </section>

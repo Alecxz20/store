@@ -8,7 +8,11 @@ export default function Banner({ item }) {
       <img className={style.img} src={img} alt={`banner image: ${title}`} />
       <p className={style.tag}>{tag}</p>
       <h3 className={style.title}>{title}</h3>
-      <Link className={style.link} to={'/store/shop'}>
+      <Link
+        onClick={() => window.scrollTo(0, 0)}
+        className={style.link}
+        to={'/store/shop'}
+      >
         <p className={style.cta}>{cta}</p>
       </Link>
     </div>

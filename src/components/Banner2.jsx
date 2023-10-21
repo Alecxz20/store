@@ -10,7 +10,11 @@ export default function Banner2({ item }) {
         <h3 className={style.title}>{title}</h3>
         <p className={style.tag}>{tag}</p>
       </div>
-      <Link className={style.link} to={'/store/shop'}>
+      <Link
+        onClick={() => window.scrollTo(0, 0)}
+        className={style.link}
+        to={'/store/shop'}
+      >
         <p className={style.cta}>{cta}</p>
       </Link>
     </div>

@@ -2,7 +2,7 @@ import style from './PopularCategories.module.css'
 import Carousel from 'react-multi-carousel'
 import 'react-multi-carousel/lib/styles.css'
 import PopularCategoriesItem from './PopularCategoriesItem'
-import data from "../pupularCategoriesData"
+import data from '../pupularCategoriesData'
 import { Link } from 'react-router-dom'
 
 export default function PopularCategories() {
@@ -29,10 +29,16 @@ export default function PopularCategories() {
       <h2 className={style.title}>Popular Categories</h2>
       <Carousel responsive={responsive}>
         {data.map((category, index) => (
-          <Link to={`/store/shop/${category.route}`} className={style.a} key={index}><PopularCategoriesItem category={category} /></Link>
+          <Link
+            onClick={() => window.scrollTo(0, 0)}
+            to={`/store/shop/${category.route}`}
+            className={style.a}
+            key={index}
+          >
+            <PopularCategoriesItem category={category} />
+          </Link>
         ))}
       </Carousel>
     </section>
   )
 }
-
