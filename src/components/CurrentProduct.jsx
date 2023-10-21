@@ -14,9 +14,7 @@ export default function CurrentProduct({ thisProduct }) {
       <ProductNav name={name} category={category} />
       <div className={style.inHalf}>
         <ProductImages thisProduct={thisProduct} />
-        <div>
-          <ProductDescription thisProduct={thisProduct} />
-        </div>
+        <ProductDescription thisProduct={thisProduct} />
       </div>
       <AutumnCollection />
       <Newsletter />
